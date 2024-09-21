@@ -1,0 +1,83 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+p {
+    font-size: large;
+}
+#name {
+    height: 25px;
+    padding-left: 10px;
+}
+#email {
+    height: 25px;
+    width: 200px;
+    padding-left: 10px;
+}
+#number {
+    height: 25px;
+    padding-left: 10px;
+}
+#Education{
+    padding: 10px 0px 0px 10px;
+}
+#Experience{
+    padding: 10px 0px 0px 10px;
+}
+#skills{
+    padding: 10px 0px 0px 10px;
+}
+textarea{
+    height: 70px;
+    width: 100%;
+}
+fieldset {
+  border: 2px solid white;
+  padding-right: 25px;
+}
+form {
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(155, 160, 147);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+legend {
+    font-size: x-large;
+    font-weight: 800;
+
+}
+#submit {
+    height: 40px;
+    width:100% ;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: larger;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+#submit  :hover{
+    color: rgb(155, 160, 147);
+}
+#resumedisplay{
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(155, 160, 147);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+#resume-display {
+    color: black;
+}
